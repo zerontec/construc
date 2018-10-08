@@ -8,6 +8,8 @@ import { ServicesComponent } from './pages/services/services.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { GaleryComponent } from './pages/galery/galery.component';
 import { DesboComponent } from './pages/desbo/desbo.component';
+import { NavbarComponent } from './pages/navbar/navbar.component';
+import { FooterComponent } from './pages/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { DesboComponent } from './pages/desbo/desbo.component';
     ServicesComponent,
     ContactComponent,
     GaleryComponent,
-    DesboComponent
+    DesboComponent,
+    NavbarComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule
